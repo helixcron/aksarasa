@@ -1,9 +1,59 @@
 body {
   font-family: monospace;
-  margin: 0;
-  padding: 0;
+  margin: cover;
+  padding: cover;
   background-color: #874ccc;
 }
+
+@use postcss-preset-env {
+  stage: 0
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  
+  & > input {
+    flex: 1 1 10ch;
+    margin: .5rem;
+    
+    &[type="HOME"] {
+      flex: 3 1 30ch;
+    }
+  }
+}
+
+input {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+  
+  &[type="DESIGN PROCESS"] {
+    background: hotpink;
+    color: white;
+    box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
+    
+input {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+  
+  &[type="Product"] {
+    background: hotpink;
+    color: white;
+    box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
+  }
+}
+
+</form>
 
 .container {
   max-width: 600px;
