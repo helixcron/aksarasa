@@ -47,3 +47,18 @@ nav ul li a {
   padding: 10px 17px;
   border-radius: 3px;
 }
+
+a.active, a:hover {
+  background: rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+}
+
+.btn {
+  float: right;
+  font-size: 30px;
+  color: white;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
