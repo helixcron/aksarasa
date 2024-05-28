@@ -4,44 +4,38 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="dp.html">Design Process</a></li>
-<li><a href="product.html">Product</a></li>
-</ul>
-</nav>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aksarasa</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <div class="container">
+          <h1>Aksarasa</h1>
+          <div class="mood-selector"
+            <label for="mood">Select your mood:</label>
+            <select id="mood">
+              <option value="😆">😆 Happy</option>
+              <option value="🥰">🥰 Crushing someone</option>
+              <option value="😞">😞 Feel blue</option>
+              <option value="🤬">🤬 I'm Mad</option>
+            </select>
+        </div>
+        <div class="note">
+          <label for="note">Add a note:</label>
+          <textarea id="note" rows="3"></textarea>
+        </div>
+        <button onclick="addEntry()">Add mood</button>
+        <div id="entries"></div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+    </html>
+    
 </body>
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aksarasa</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h1>Aksarasa</h1>
-      <div class="mood-selector"
-        <label for="mood">Select your mood:</label>
-        <select id="mood">
-          <option value="😆">😆 Happy</option>
-          <option value="🥰">🥰 Crushing someone</option>
-          <option value="😞">😞 Feel blue</option>
-          <option value="🤬">🤬 I'm Mad</option>
-        </select>
-    </div>
-    <div class="note">
-      <label for="note">Add a note:</label>
-      <textarea id="note" rows="3"></textarea>
-    </div>
-    <button onclick="addEntry()">Add mood</button>
-    <div id="entries"></div>
-</div>
-<script src="script.js"></script>
-</body>
-</html>
 
