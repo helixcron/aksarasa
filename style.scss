@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("background.png")
+    background-position: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid white;
+}
+
+nav .logo {
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+  color: white;
+  padding: 0 50px;
+  text-transform: uppercase;
+}
+
+nav ul [
+float: right;
+margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 17px;
+  border-radius: 3px;
+}
