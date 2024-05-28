@@ -8,14 +8,43 @@ body {
   background-size: contain;
   background-size: cover;
 
+  }
+
+}
+nav ul {list-style-type: none;}
+}
+nav ul li {display: inline}
+ul { 
+   background: #ae6fcf;
+   padding: 25px 20px;
+   border-radius: 10px;
+   border: solid rgb(237, 231, 231);
 }
 
-nav {
-  height: 80px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  border-bottom: 1px solid white;
+li {
+   font-size: 30px;
+   font-family: Verdana;
+   padding: 10px 15px;
+   color: rgb(245, 245, 127)
+   background-color: pink;
+   border-radius: 10px;
+   border: solid rgb(237, 231, 231);
 }
+
+ul li {list-style-type-none; display:
+   inline-block;}
+
+h1 {
+    text-align: center;
+    color: rgb(228, 228, 145);
+    font-size: 2em;
+}
+
+marquee {
+    font-size: 50px;
+    color:rgb(245, 245, 127);
+}
+
 
 nav .logo {
   font-size: 35px;
@@ -40,7 +69,7 @@ nav ul li {
 nav ul li a {
   font-size: 17px;
   text-transform: uppercase;
-  color: white;
+  color: rgb(231, 126, 126);
   padding: 10px 17px;
   border-radius: 3px;
 }
@@ -53,7 +82,7 @@ a.active, a:hover {
 .btn {
   float: right;
   font-size: 30px;
-  color: white;
+  color: rgb(232, 164, 164);
   line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
