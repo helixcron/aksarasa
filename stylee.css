@@ -21,7 +21,7 @@ body {
     text-transform: uppercase;
     width: 50%;
     text-align: center;
-    -webkit-box-reflect: below 1px linear gradient(transparent, #f1ee8e )
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #f1ee8e )
     ;
     line-height: 0.70em, 
 
