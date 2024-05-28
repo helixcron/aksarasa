@@ -1,19 +1,19 @@
 /* Place your CSS styles in this file */
 
 body {
-  background-image: url("background.png")
+  background-image: url("background.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
   background-size: cover;
-
   }
 
 }
-nav ul {list-style-type: none;}
+nav ul {list-style-type: none;
 }
 nav ul li {display: inline}
+
 ul { 
    background: #ae6fcf;
    padding: 25px 20px;
@@ -28,7 +28,7 @@ li {
    color: rgb(245, 245, 127)
    background-color: pink;
    border-radius: 10px;
-   border: solid rgb(237, 231, 231);
+   border: solid black;
 }
 
 ul li {list-style-type-none; display:
