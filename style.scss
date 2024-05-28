@@ -1,16 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
+/* Place your CSS styles in this file */
 
 body {
   background-image: url("background.png")
-    background-position: center;
-  background-size: 100% 100%;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  background-size: cover;
+
 }
 
 nav {
@@ -29,7 +26,7 @@ nav .logo {
   text-transform: uppercase;
 }
 
-nav ul [
+nav ul { 
 float: right;
 margin-right: 20px;
 }
